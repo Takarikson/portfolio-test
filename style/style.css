@@ -1,0 +1,59 @@
+/* GLOBAL */
+body {
+  margin: 0;
+  text-align: center;
+  background: #fff;
+  color: #f5cd79;
+  font-size: 16px;
+  line-height: 1.7;
+}
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+/* SPLASH */
+.splash {
+  height: 100vh;
+  position: relative;
+  /* background-image: url("https://i.postimg.cc/TPcgrgP9/splash-photo.jpg"); */
+  background-image: url("https://i.postimg.cc/02qSHVJf/pexels-luis-gomes-546819.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.splash-inner {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.splash-image {
+  background: #f5cd79;
+  width: 60px;
+  height: 60px;
+  line-height: 70px;
+  border-radius: 50%;
+}
+.page-title {
+  font-size: 60px;
+  margin: 48px 0 0 0;
+  position: relative;
+}
+.page-title::after {
+  position: absolute;
+  content: "";
+  bottom: 10px;
+  border-radius: 5px;
+  left: 50%;
+  width: 200px;
+  height: 5px;
+  transform: translateX(-50%);
+  background: #3dc1d3;
+}
